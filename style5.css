@@ -1,0 +1,85 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #f0f4f8;
+}
+header{
+	background-color:  #1e3a8a; /* deep blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #0f172a;
+}
+
+button{
+	color: red;
+}
+.navbar{
+	background: crimson; 
+	font-family: calibri; 
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.navdiv{
+	display: flex; 
+	align-items: center; 
+	justify-content: space-between;
+}
+.navdiv :hover{
+	background-color: #ffffff;
+	color: #1e3a8a;
+	border-bottom: 3px solid #0f172a;
+}
+.logo a{
+	font-size: 35px; 
+	font-weight: 600; 
+	color: white;
+}
+li{
+	list-style: none; 
+	display: inline-block;
+}
+li a{
+	color: blue; 
+	font-size: 18px; 
+	text-decoration: none; /* remove underline */
+	font-weight: bold; margin-right: 25px;
+}
+input,button{
+	padding: 10px;
+	margin: 10px 0;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	transition: all 0.3s ease;
+}
+input :hover{
+	border-color: #1e3a8a;
+	background-color: #f0f4ff;
+}
+/* Hover effect on the button */
+button:hover {
+	background-color: #1e3a8a;
+	color: white;
+	border-color: #0f172a;
+	cursor: pointer;
+  }  
+
+.star-btn{
+	background-color: #1e3a8a;
+	color: white;
+	font-size: 16px;
+	border: none; 
+	border-radius: 5px; 
+	padding: 10px 20px; 
+	position: relative;
+	transition: all 0.3s ease;
+}
+/* Add star after text on hover */
+.star-btn:hover::after {
+	content: " ★";
+	color: gold;
+	font-size: 18px;
+  }
+  

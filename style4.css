@@ -1,0 +1,57 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #f0f4f8;
+}
+header{
+	background-color:  #1e3a8a; /* deep blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #0f172a;
+}
+/* Main content */
+main {
+  padding: 40px;
+}
+/* Sections */
+section {
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+li{
+	color: red;
+}
+.navbar{
+	background: crimson; font-family: calibri; padding-right: 15px;padding-left: 15px;
+}
+.navdiv{
+	display: flex; align-items: center; justify-content: space-between;
+}
+.navdiv :hover{
+	background-color: #ffffff;
+	color: #1e3a8a;
+	border-bottom: 3px solid #0f172a;
+}
+.logo a{
+	font-size: 35px; font-weight: 600; color: white;
+}
+li{
+	list-style: none; display: inline-block;
+}
+li a{
+	color: blue; font-size: 18px; font-weight: bold; margin-right: 25px;text-decoration: none; /* remove underline */
+}
+button{
+	background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+}
+button a{
+	color: white; font-weight: bold; font-size: 15px;
+}

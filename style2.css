@@ -1,0 +1,98 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f4f8;
+}
+
+/* Header styles */
+header {
+    background-color: #1e3a8a; /* deep blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #0f172a;
+}
+
+/* Grid container styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* Item styles */
+.item {
+    background: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navbar styles */
+.navbar {
+    background: crimson;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Navigation div styles */
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navdiv :hover{
+	background-color: #ffffff;
+	color: #1e3a8a;
+	border-bottom: 3px solid #0f172a;
+}
+
+/* Logo styles */
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+/* List styles */
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* Link styles inside list items */
+li a {
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none; /* remove underline */
+}
+
+/* Button styles */
+button {
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    border: none; /* optional: remove default border */
+    cursor: pointer; /* optional: cursor change on hover */
+}
+
+/* Button link styles inside button */
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none; /* optional: remove underline */
+}
+
+/* Image hover effects */
+img:hover {
+    transition: 2s ease;
+    transform: scaleX(1.3);
+}
